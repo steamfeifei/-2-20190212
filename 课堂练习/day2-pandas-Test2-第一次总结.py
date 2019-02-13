@@ -293,3 +293,6 @@ print('=============')
 print(pd.concat([left, right], axis=1, join='outer', join_axes=[left.index]))   # join_axes  合并列，代表行标签，反之为列标签
 print('=============')
 print([left.columns[:2]])
+
+print(right)
+print(right[(right.id > 2)])
