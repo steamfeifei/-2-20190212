@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 data = pd.Series(np.random.randn(1000), index=np.arange(1000))
+print(data)
 data = data.cumsum()    # 累加
 print(data)
 data.plot()
